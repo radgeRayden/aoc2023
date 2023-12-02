@@ -78,7 +78,6 @@ fn digit-match (str)
 
 try
     f := FileStream "01a.txt" FileMode.Read
-    local digits : (array i8 2)
 
     vvv print
     fold (result = 0) for l in ('lines f)
